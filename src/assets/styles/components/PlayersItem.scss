@@ -1,0 +1,15 @@
+.PlayersItem {
+    padding: 0px 10px;
+    position: relative;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 450ms all;
+}
+.PlayersItem__details--title {
+    font-size: 25px;
+    margin: 5px 0px 0px 0px;
+    color: black;
+}
+.PlayersItem__details--img {
+    width: 20px;
+  }

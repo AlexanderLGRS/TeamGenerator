@@ -1,0 +1,52 @@
+.Players {
+    font-family: Century Gothic;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 15px;
+    width: 50%;
+    background-color: transparent;
+}
+.Players__container {    
+    border: 2px solid black;
+    border-radius: 40px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 30px;
+    width: 100%;
+    height: 50%;
+}
+.Players__container--myPlayers {
+    color: black;
+    margin: 10px 10px;
+    position: relative;
+    font-size: 24px;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.Players__container--button{
+    background-color: rgba($color: #000000, $alpha: 0.5);
+    border: 2px solid black;
+    outline: none;
+    padding: 0px 20px;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Muli", sans-serif;
+    height: 50px;
+    letter-spacing: 2px;
+    margin: 10px 0px;
+}
+@media only screen and (max-width: 1100px) {
+    .Players {
+        margin: 10px 15px;
+        width: 97%;
+        }
+}

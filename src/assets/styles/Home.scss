@@ -1,0 +1,30 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+body {
+    margin: 0;
+    margin-bottom: 40px;
+}
+body {
+    margin: 0;
+    font-family: Century Gothic;
+    background-color: #fbab7e;
+    background-image: linear-gradient(62deg, #f7ce68 0%, #fbab7e 100%);
+}
+
+* {
+    box-sizing: border-box;
+}
+.ready__Container {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+.ready__Container img {
+    opacity: 0.5;
+    width: 200px;
+}
+.ready__Container img:hover {
+    opacity: 1;
+}
